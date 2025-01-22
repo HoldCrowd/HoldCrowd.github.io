@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+Allow: /# разрешает индексацию всего сайта
+# Disallow: /# запрет индексации всего сайта
+# Disallow: /game# запрет диррективы
+
+Disallow: /index.html
+Disallow: /game/game.html
+Disallow: /game/spacerelaxation.html
+
+Host: https://holdcrowd.github.io/
+
+Sitemap: https://holdcrowd.github.io/sitemap.xml

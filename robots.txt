@@ -5,6 +5,8 @@ Allow: / # разрешает индексацию всего сайта
 # Disallow: / # запрет индексации всего сайта
 # Disallow: /game # запрет диррективы
 
+Allow: /game/privacypolicyspacerelaxation.html
+
 Disallow: /index.html
 Disallow: /game/game.html
 Disallow: /game/spacerelaxation.html
